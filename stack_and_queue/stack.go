@@ -32,7 +32,6 @@ func (s *Stack) Push(data any) error {
 	s.Top += 1
 	s.Data[s.Top] = data
 
-	fmt.Println(s.Top)
 	return nil
 }
 
